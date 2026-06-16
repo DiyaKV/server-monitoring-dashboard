@@ -6,3 +6,6 @@ document.getElementById("memory").innerText =
 
 document.getElementById("disk").innerText =
     Math.floor(Math.random() * 100) + "%";
+
+document.getElementById("nginx").innerText =
+    "Running ";
