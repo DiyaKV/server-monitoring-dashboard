@@ -3,3 +3,9 @@ document.getElementById("cpu").innerText =
 
 document.getElementById("memory").innerText =
     Math.floor(Math.random() * 100) + "%";
+
+document.getElementById("disk").innerText =
+    Math.floor(Math.random() * 100) + "%";
+
+document.getElementById("nginx").innerText =
+    "Running ";
