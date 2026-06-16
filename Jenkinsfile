@@ -13,6 +13,7 @@ pipeline {
                 sh '''
                 sudo cp index.html /var/www/html/
                 sudo cp script.js /var/www/html/
+                sudo cp style.css /var/www/html/
                 '''
             }
         }
